@@ -1,0 +1,9 @@
+[package]
+name = "painels"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rayon = "1.10.0"
+reqwest = { version = "0.12.7", features = ["blocking", "json"] }
+serde_json = "1.0.128"
